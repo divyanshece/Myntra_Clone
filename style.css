@@ -10,6 +10,7 @@ header {
     background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #b6b1b1;
 }
 .myntra_logo {
     height: 36px;
@@ -36,6 +37,11 @@ header {
     letter-spacing: 0.3px;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 27px 0px;border-bottom: 4px solid #ffffff;
+}
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+
 }
 .nav_bar a sup {
     color: #ff3f6c;
@@ -45,7 +51,8 @@ header {
 
 .search_bar {
     height: 40px;
-    min-width: 400px;
+    min-width: 200px;
+    width: 30%;
     display: flex;
     align-items: center;
 
@@ -76,4 +83,34 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+/* ************************************************************** Main Section ******************************************************************* */
+
+.banner_container {
+    margin: 40px 0px;
+}
+.banner_image {
+    width: 100%;
+}
+
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.sale_items {
+    width: 250px;
 }
